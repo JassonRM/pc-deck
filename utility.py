@@ -14,3 +14,5 @@ while True:
             keyboard.press_and_release("ctrl+c")
         elif (code == 2):
             keyboard.press_and_release("ctrl+v")
+        else:
+            device.write("N".encode("utf-8"))
