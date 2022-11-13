@@ -1,0 +1,1 @@
+powershell -Command "Start-Process -WindowStyle hidden python3 .\utility.py"
